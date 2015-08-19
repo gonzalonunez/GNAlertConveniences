@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40EEBD38AA8949623EC292339B722313 /* GNAlertConveniences.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC2478E00D581D559733E2E1793D97F /* GNAlertConveniences.swift */; };
+		41B4A4AD1C8BEED1E3C2950CC20D58CC /* GNAlertConveniences-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5646A9B4D02506B9A7469526DFCB7842 /* GNAlertConveniences-dummy.m */; };
+		7C77710D7157E7449E25448BA2D7CDB6 /* Pods-GNAlertConveniences_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FB3D41B2B05041B726F706513FA68F /* Pods-GNAlertConveniences_Tests-dummy.m */; };
+		87ECBAB0B0CB41C5D43037B04F49BAAD /* GNAlertConveniences.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 398284A33C857DC31853C1B516BB3555 /* GNAlertConveniences.bundle */; };
+		B46B86C94171310F9C350401D3D01F78 /* Pods-GNAlertConveniences_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB367CC2F850F6D005D99BFDD7FCF197 /* Pods-GNAlertConveniences_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5E984C5EF908634D41861C55DF9F7F8 /* GNAlertConveniences-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D3D89A03C8220B6B960C5C373F3B660 /* GNAlertConveniences-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F37FC0D6C7EC6F76459AA5E423D832F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 778614702CED6600847D436C55736997 /* Foundation.framework */; };
+		F8AFF6A9A72C63D20E335F99391886E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 778614702CED6600847D436C55736997 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46BF8B7A2DDF0983D9AB187345E0139D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 536711CEE07212678E6F6D823ACC72B0;
+			remoteInfo = "GNAlertConveniences-GNAlertConveniences";
+		};
+		5C4D8D5BE11FE3054C0EAAA1F6BCBC24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD5F8EA077C8C5850552CF8A4F9F380D;
+			remoteInfo = GNAlertConveniences;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2309FF39604FDE75B4108331FFBAC120 /* Pods-GNAlertConveniences_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GNAlertConveniences_Tests-resources.sh"; sourceTree = "<group>"; };
+		2CC4F12216DDC4F121F811EF75C0388E /* GNAlertConveniences.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GNAlertConveniences.modulemap; sourceTree = "<group>"; };
+		398284A33C857DC31853C1B516BB3555 /* GNAlertConveniences.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GNAlertConveniences.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3D89A03C8220B6B960C5C373F3B660 /* GNAlertConveniences-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GNAlertConveniences-umbrella.h"; sourceTree = "<group>"; };
+		461D1FBEFB6B19AA7DBB77D739176FFF /* Pods_GNAlertConveniences_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GNAlertConveniences_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5646A9B4D02506B9A7469526DFCB7842 /* GNAlertConveniences-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GNAlertConveniences-dummy.m"; sourceTree = "<group>"; };
+		607ACD0B05C94E3EFAE6FBB28A826FE5 /* GNAlertConveniences-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GNAlertConveniences-prefix.pch"; sourceTree = "<group>"; };
+		61F41901933198D37B4E54C0724C9DC9 /* Pods-GNAlertConveniences_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GNAlertConveniences_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		663F1160C70E1E8DD7BAB1F2B5A71DA0 /* GNAlertConveniences.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GNAlertConveniences.xcconfig; sourceTree = "<group>"; };
+		6A063EE7CA681E677E16BC66851784F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		778614702CED6600847D436C55736997 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7CF7B7ABF52EBEE1FAE7C64AAEFFE6FC /* Pods-GNAlertConveniences_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GNAlertConveniences_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8067BFBBFE6308B7658C94C94E451C94 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F6CFA315850123AB880F073DFC417C4 /* Pods-GNAlertConveniences_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GNAlertConveniences_Tests.modulemap"; sourceTree = "<group>"; };
+		ACC2478E00D581D559733E2E1793D97F /* GNAlertConveniences.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GNAlertConveniences.swift; sourceTree = "<group>"; };
+		B5D9714E2FDCA88818EF841ACFB5D1C1 /* Pods-GNAlertConveniences_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNAlertConveniences_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B8FB3D41B2B05041B726F706513FA68F /* Pods-GNAlertConveniences_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GNAlertConveniences_Tests-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB367CC2F850F6D005D99BFDD7FCF197 /* Pods-GNAlertConveniences_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GNAlertConveniences_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CDB49A03494D4463668BABE3AAF187BC /* Pods-GNAlertConveniences_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GNAlertConveniences_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CF6A13F2D31ABEF2A9B0DE874E3B21C5 /* GNAlertConveniences.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GNAlertConveniences.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0BD52850B13A1E100B320977AE353C /* Pods-GNAlertConveniences_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GNAlertConveniences_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE2A14A1D01174A053A3E2E8D2F6F56B /* GNAlertConveniences-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GNAlertConveniences-Private.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01514878A4E6E3ECA2E53A8124AEEFAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8AFF6A9A72C63D20E335F99391886E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F1C26165BECC1DDE9F6CBAC9294F3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37FC0D6C7EC6F76459AA5E423D832F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D6C607198066F7B5EDC2AF28629ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17EB827007E3A9D07EE1C0A3ED28DF78 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				52CCE41DF028E8279FACCD3226E98BB8 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		52CCE41DF028E8279FACCD3226E98BB8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ACC2478E00D581D559733E2E1793D97F /* GNAlertConveniences.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				778614702CED6600847D436C55736997 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		64C8EA1DA6B392CD81D52E6719216B9D /* Pods-GNAlertConveniences_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8067BFBBFE6308B7658C94C94E451C94 /* Info.plist */,
+				9F6CFA315850123AB880F073DFC417C4 /* Pods-GNAlertConveniences_Tests.modulemap */,
+				CDB49A03494D4463668BABE3AAF187BC /* Pods-GNAlertConveniences_Tests-acknowledgements.markdown */,
+				7CF7B7ABF52EBEE1FAE7C64AAEFFE6FC /* Pods-GNAlertConveniences_Tests-acknowledgements.plist */,
+				B8FB3D41B2B05041B726F706513FA68F /* Pods-GNAlertConveniences_Tests-dummy.m */,
+				61F41901933198D37B4E54C0724C9DC9 /* Pods-GNAlertConveniences_Tests-frameworks.sh */,
+				2309FF39604FDE75B4108331FFBAC120 /* Pods-GNAlertConveniences_Tests-resources.sh */,
+				BB367CC2F850F6D005D99BFDD7FCF197 /* Pods-GNAlertConveniences_Tests-umbrella.h */,
+				DE0BD52850B13A1E100B320977AE353C /* Pods-GNAlertConveniences_Tests.debug.xcconfig */,
+				B5D9714E2FDCA88818EF841ACFB5D1C1 /* Pods-GNAlertConveniences_Tests.release.xcconfig */,
+			);
+			name = "Pods-GNAlertConveniences_Tests";
+			path = "Target Support Files/Pods-GNAlertConveniences_Tests";
+			sourceTree = "<group>";
+		};
+		6FDFCB99FB2C79DC97E7CF00CDA964F2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64C8EA1DA6B392CD81D52E6719216B9D /* Pods-GNAlertConveniences_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				C766E77D15C63898D67B5EE0A637AF6B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				6FDFCB99FB2C79DC97E7CF00CDA964F2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9ED36F18A178AFF789F63EB167728EF5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CC4F12216DDC4F121F811EF75C0388E /* GNAlertConveniences.modulemap */,
+				663F1160C70E1E8DD7BAB1F2B5A71DA0 /* GNAlertConveniences.xcconfig */,
+				FE2A14A1D01174A053A3E2E8D2F6F56B /* GNAlertConveniences-Private.xcconfig */,
+				5646A9B4D02506B9A7469526DFCB7842 /* GNAlertConveniences-dummy.m */,
+				607ACD0B05C94E3EFAE6FBB28A826FE5 /* GNAlertConveniences-prefix.pch */,
+				3D3D89A03C8220B6B960C5C373F3B660 /* GNAlertConveniences-umbrella.h */,
+				6A063EE7CA681E677E16BC66851784F5 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GNAlertConveniences";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C766E77D15C63898D67B5EE0A637AF6B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE72C7D262D207D24F29BE7F89A12F24 /* GNAlertConveniences */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				398284A33C857DC31853C1B516BB3555 /* GNAlertConveniences.bundle */,
+				CF6A13F2D31ABEF2A9B0DE874E3B21C5 /* GNAlertConveniences.framework */,
+				461D1FBEFB6B19AA7DBB77D739176FFF /* Pods_GNAlertConveniences_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE72C7D262D207D24F29BE7F89A12F24 /* GNAlertConveniences */ = {
+			isa = PBXGroup;
+			children = (
+				17EB827007E3A9D07EE1C0A3ED28DF78 /* Pod */,
+				9ED36F18A178AFF789F63EB167728EF5 /* Support Files */,
+			);
+			name = GNAlertConveniences;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5AFE868D6AAD36EA3762083318B4ECFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E984C5EF908634D41861C55DF9F7F8 /* GNAlertConveniences-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80F1F0D6061DB2DCDF6DE119A59A9A6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46B86C94171310F9C350401D3D01F78 /* Pods-GNAlertConveniences_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		536711CEE07212678E6F6D823ACC72B0 /* GNAlertConveniences-GNAlertConveniences */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33AF1A03DA1F47C49B37B4A6C08DB109 /* Build configuration list for PBXNativeTarget "GNAlertConveniences-GNAlertConveniences" */;
+			buildPhases = (
+				A0C7B461A7FA425CE2F5F56237C7195F /* Sources */,
+				90D6C607198066F7B5EDC2AF28629ED0 /* Frameworks */,
+				E2AABED4B8923540153F9B3EC064AD84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GNAlertConveniences-GNAlertConveniences";
+			productName = "GNAlertConveniences-GNAlertConveniences";
+			productReference = 398284A33C857DC31853C1B516BB3555 /* GNAlertConveniences.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		913887B7A231B2792A044071960DB43B /* Pods-GNAlertConveniences_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE83EB4B7BD2913C1727DB804C980645 /* Build configuration list for PBXNativeTarget "Pods-GNAlertConveniences_Tests" */;
+			buildPhases = (
+				2C82AB7D23A751986043C4134BDD6929 /* Sources */,
+				01514878A4E6E3ECA2E53A8124AEEFAB /* Frameworks */,
+				80F1F0D6061DB2DCDF6DE119A59A9A6B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2F3C8E31E6A286A1749C272C9222F36 /* PBXTargetDependency */,
+			);
+			name = "Pods-GNAlertConveniences_Tests";
+			productName = "Pods-GNAlertConveniences_Tests";
+			productReference = 461D1FBEFB6B19AA7DBB77D739176FFF /* Pods_GNAlertConveniences_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD5F8EA077C8C5850552CF8A4F9F380D /* GNAlertConveniences */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4A39100C43F27CA17766DF834F99217 /* Build configuration list for PBXNativeTarget "GNAlertConveniences" */;
+			buildPhases = (
+				2C0CD8B48059749C84272C64F6B209A4 /* Sources */,
+				09F1C26165BECC1DDE9F6CBAC9294F3E /* Frameworks */,
+				9304D16698AE02994C70330EDD584F64 /* Resources */,
+				5AFE868D6AAD36EA3762083318B4ECFB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E832238F638C5E4C0DE05FCE7DE1C1F9 /* PBXTargetDependency */,
+			);
+			name = GNAlertConveniences;
+			productName = GNAlertConveniences;
+			productReference = CF6A13F2D31ABEF2A9B0DE874E3B21C5 /* GNAlertConveniences.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD5F8EA077C8C5850552CF8A4F9F380D /* GNAlertConveniences */,
+				536711CEE07212678E6F6D823ACC72B0 /* GNAlertConveniences-GNAlertConveniences */,
+				913887B7A231B2792A044071960DB43B /* Pods-GNAlertConveniences_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9304D16698AE02994C70330EDD584F64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87ECBAB0B0CB41C5D43037B04F49BAAD /* GNAlertConveniences.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2AABED4B8923540153F9B3EC064AD84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C0CD8B48059749C84272C64F6B209A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B4A4AD1C8BEED1E3C2950CC20D58CC /* GNAlertConveniences-dummy.m in Sources */,
+				40EEBD38AA8949623EC292339B722313 /* GNAlertConveniences.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C82AB7D23A751986043C4134BDD6929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C77710D7157E7449E25448BA2D7CDB6 /* Pods-GNAlertConveniences_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C7B461A7FA425CE2F5F56237C7195F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2F3C8E31E6A286A1749C272C9222F36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GNAlertConveniences;
+			target = BD5F8EA077C8C5850552CF8A4F9F380D /* GNAlertConveniences */;
+			targetProxy = 5C4D8D5BE11FE3054C0EAAA1F6BCBC24 /* PBXContainerItemProxy */;
+		};
+		E832238F638C5E4C0DE05FCE7DE1C1F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GNAlertConveniences-GNAlertConveniences";
+			target = 536711CEE07212678E6F6D823ACC72B0 /* GNAlertConveniences-GNAlertConveniences */;
+			targetProxy = 46BF8B7A2DDF0983D9AB187345E0139D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		258860251DC00EAB384F4FFBD06C137A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE2A14A1D01174A053A3E2E8D2F6F56B /* GNAlertConveniences-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GNAlertConveniences/GNAlertConveniences-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GNAlertConveniences/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GNAlertConveniences/GNAlertConveniences.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GNAlertConveniences;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3A003A958A4B4DC4C4E1815D346503E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE2A14A1D01174A053A3E2E8D2F6F56B /* GNAlertConveniences-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = GNAlertConveniences;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		878C963BE962D565854079C06DD6BB6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5D9714E2FDCA88818EF841ACFB5D1C1 /* Pods-GNAlertConveniences_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GNAlertConveniences_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GNAlertConveniences_Tests/Pods-GNAlertConveniences_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_GNAlertConveniences_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE0372B59CDAA013777CD2861DD6DF72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE2A14A1D01174A053A3E2E8D2F6F56B /* GNAlertConveniences-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = GNAlertConveniences;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D4CB8D99EC0357DA7C6E59365E542DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE0BD52850B13A1E100B320977AE353C /* Pods-GNAlertConveniences_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GNAlertConveniences_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-GNAlertConveniences_Tests/Pods-GNAlertConveniences_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_GNAlertConveniences_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD87B23C7DBE62689F62B8B87FDAB0D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE2A14A1D01174A053A3E2E8D2F6F56B /* GNAlertConveniences-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GNAlertConveniences/GNAlertConveniences-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GNAlertConveniences/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GNAlertConveniences/GNAlertConveniences.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GNAlertConveniences;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33AF1A03DA1F47C49B37B4A6C08DB109 /* Build configuration list for PBXNativeTarget "GNAlertConveniences-GNAlertConveniences" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A003A958A4B4DC4C4E1815D346503E2 /* Debug */,
+				BE0372B59CDAA013777CD2861DD6DF72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4A39100C43F27CA17766DF834F99217 /* Build configuration list for PBXNativeTarget "GNAlertConveniences" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD87B23C7DBE62689F62B8B87FDAB0D0 /* Debug */,
+				258860251DC00EAB384F4FFBD06C137A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE83EB4B7BD2913C1727DB804C980645 /* Build configuration list for PBXNativeTarget "Pods-GNAlertConveniences_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4CB8D99EC0357DA7C6E59365E542DAE /* Debug */,
+				878C963BE962D565854079C06DD6BB6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

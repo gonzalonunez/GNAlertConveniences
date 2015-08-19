@@ -1,0 +1,6 @@
+framework module Pods_GNAlertConveniences_Tests {
+  umbrella header "Pods-GNAlertConveniences_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

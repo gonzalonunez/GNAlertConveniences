@@ -1,0 +1,6 @@
+framework module GNAlertConveniences {
+  umbrella header "GNAlertConveniences-umbrella.h"
+
+  export *
+  module * { export * }
+}

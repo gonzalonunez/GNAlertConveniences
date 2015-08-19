@@ -1,0 +1,14 @@
+PODS:
+  - GNAlertConveniences (0.1.0)
+
+DEPENDENCIES:
+  - GNAlertConveniences (from `../`)
+
+EXTERNAL SOURCES:
+  GNAlertConveniences:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GNAlertConveniences: 71bc5bc3ce9ca796596be48f495e1f6691ed4f14
+
+COCOAPODS: 0.38.2
