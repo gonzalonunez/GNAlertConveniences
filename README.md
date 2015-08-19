@@ -9,6 +9,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 GNAlertConveniences extends UIViewController with a few handy methods to help present basic UIAlertControllers without all the boilerplate code. 
+
 **_Note:_** The button titles come localized, but the UIAlertController title and message must be localized before being passed into these methods.
 
 ## Methods
